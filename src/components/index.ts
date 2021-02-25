@@ -7,7 +7,7 @@ function getName(key: string) {
 }
 
 Object.entries(components).forEach(([key, value]) => {
-  exportable[getName(key)] = value.default
+  exportable[value.name ? value.name : getName(key)] = value.default
 })
 
 export default exportable
