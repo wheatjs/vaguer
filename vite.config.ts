@@ -9,6 +9,7 @@ declare const __dirname: string
 export default defineConfig({
   build: {
     lib: {
+      name: 'Vaguer',
       entry: path.resolve(__dirname, 'src/main.ts'),
     },
     rollupOptions: {

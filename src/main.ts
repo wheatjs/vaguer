@@ -10,3 +10,7 @@ export const VaguerComponents: Plugin = {
     })
   },
 }
+
+// START_EXPORTS
+export { default as VaguerButton } from './components/VaguerButton.vue'
+// END_EXPORTS
