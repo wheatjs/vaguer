@@ -22,25 +22,28 @@
     }
   },
   "dependencies": {
-    "esno": "0.4.4",
-    "vue": "^3.0.5"
+    "esno": "0.10.0",
+    "vue": "^3.2.19"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.4.3",
-    "@typescript-eslint/eslint-plugin": "^4.15.2",
-    "@vitejs/plugin-vue": "^1.1.4",
-    "@vue/compiler-sfc": "^3.0.5",
+    "@antfu/eslint-config": "^0.9.0",
+    "@types/node": "^16.10.2",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@vitejs/plugin-vue": "^1.9.2",
+    "@vue/compiler-sfc": "^3.2.19",
     "cross-env": "^7.0.3",
-    "eslint": "^7.20.0",
-    "fast-glob": "^3.2.5",
-    "tsup": "^4.3.1",
-    "typescript": "^4.1.3",
-    "vite": "^2.0.3",
-    "vite-plugin-windicss": "^0.5.0"
+    "eslint": "^7.32.0",
+    "fast-glob": "^3.2.7",
+    "tsup": "^5.2.1",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.2",
+    "vite-plugin-windicss": "^1.4.9"
   },
   "eslintConfig": {
     "extends": "@antfu/eslint-config",
-    "ignorePatterns": ["build/**/*.js"],
+    "ignorePatterns": [
+      "build/**/*.js"
+    ],
     "rules": {
       "no-unused-vars": "off",
       "@typescript-eslint/no-unused-vars": "off"
